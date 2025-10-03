@@ -1,6 +1,7 @@
 <?php
-$celsius = 25;
-$fahrenheit = ($celsius * 9/5) + 32;
-
-echo "$celsius°C is equal to $fahrenheit°F";
+$basic_salary = 15000;
+$allowance = 14000;
+$deduction = 6000;
+$net_salary = $basic_salary + $allowance - $deduction;
+echo "Net Salary: $net_salary";
 ?>

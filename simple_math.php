@@ -7,6 +7,6 @@ $difference = $a - $b;
 $product = $a * $b;
 $quotient = $a / $b;
 
-echo "Sum: $sum, Difference: $difference, Product: $product, Quotient: $quotient";
+echo "Sum: $sum,  Difference: $difference, Product: $product, Quotient: $quotient";
 
 ?>

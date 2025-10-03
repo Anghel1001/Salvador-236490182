@@ -1,6 +1,8 @@
 <?php
-$celsius = 25;
-$fahrenheit = ($celsius * 9/5) + 32;
-
-echo "$celsius°C is equal to $fahrenheit°F";
+$x = 20;
+$y = 25;
+$temp = $x;
+$x = $y;
+$y = $temp;
+echo "After swapping: x = $x, y = $y<br><br>";
 ?>
