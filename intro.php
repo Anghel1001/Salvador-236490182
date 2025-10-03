@@ -1,7 +1,7 @@
 <h1>Salvador, Angel Rhyzelle</h1>
 
 <?php 
-$name="Rhyzelle";
+$name="Angel Rhyzelle";
 $age="21";
 $gender="Female";
 $favcolor="Purple";
