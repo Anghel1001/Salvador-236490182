@@ -30,13 +30,17 @@
 </head>
 <body>
     <div class="card">
-        <h1>Area and Perimeter of a Rectangle</h1>
+        <h1>Simple Math</h1>
 <?php
-$length = 8;
-$width = 4;
-$area = $length * $width;
-$perimeter = 2 * ($length + $width);
-echo "Area: $area, Perimeter: $perimeter";
+$a = 10;
+$b = 5;
+
+$sum = $a + $b;
+$difference = $a - $b;
+$product = $a * $b;
+$quotient = $a / $b;
+
+echo "Sum: $sum,  Difference: $difference, Product: $product, Quotient: $quotient";
 ?>
 </body>
 </html>

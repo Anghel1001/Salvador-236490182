@@ -30,13 +30,13 @@
 </head>
 <body>
     <div class="card">
-        <h1>Area and Perimeter of a Rectangle</h1>
+        <h1>Bank Account Simulation</h1>
 <?php
-$length = 8;
-$width = 4;
-$area = $length * $width;
-$perimeter = 2 * ($length + $width);
-echo "Area: $area, Perimeter: $perimeter";
+$balance = 13000;
+$deposit = 14000;
+$withdraw = 3000;
+$balance = $balance + $deposit - $withdraw;
+echo "Updated Balance: $balance";
 ?>
 </body>
 </html>
